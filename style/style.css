@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* banner style start here */
+header {
+    background: url(../images/banner/banner3.png);
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-info {
+    /* padding-left: 845px; */
+    padding-right: 230px;
+    text-align: right;
+
+}
+
+.banner-info .banner-title {
+    padding-top: 216px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px;
+    color: #fff;
+    padding-bottom: 24px;
+    padding-left: 845px;
+}
+
+.banner-info .banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 876px;
+    color: #fff;
+    padding-bottom: 32px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn {
+    border: none;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+}
+/* about section styling */
+.about-section {
+    padding-top: 131px;
+}
+
+.about {
+    width: 1072px;
+    height: 723px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 87px;
+
+}
+
+.about-info-title,
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding-bottom: 24px;
+}
+
+.about-info-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+
+.list {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+i {
+    color: #16D887;
+}
+/* plan section styling  */
+.plan-section {
+    padding-top: 130px;
+    width: 1141px;
+}
+
+.plan-title {
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    padding-bottom: 130px;
+}
+
+.plan .icon {
+    margin-left: 44px;
+    padding-bottom: 27px;
+}
+
+.plan .planBox-title, .learn-title {
+    text-align: center;
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+.plan .planBox-desc {
+    text-align: center;
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+/* Gradient box styling */
+.gradient-box {
+    width: 1140px;
+    padding-bottom: 190px;
+    position: relative;
+}
+
+.gra-img {
+    margin-bottom: -305px;
+}
+
+.textArea h3 {
+    text-align: left;
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    padding-left: 64px;
+    padding-top: 59px;
+    margin-top: -300px;
+}
+
+.textArea .btn {
+    margin-left: 64px;
+    border-radius: 5px;
+}
+/* footer styles */
+footer {
+    background-color: #000;
+}
+
+.footer-section {
+    padding: 130px 0;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+}
+
+.footer-desc,
+.email,
+.phn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding-bottom: 24px;
+
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+
+}
+ .contact{
+    width: 485px;
+    height: 317px;
+}
+
+.subscribe h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-bottom:31px ;
+
+}
+.subscribe input{
+    color: #F8F8F8;
+    background-color: #000;
+    border: 1px solid #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 21px;
+    margin-bottom: 16px;
+
+}
+
+.subscribe .btn{
+    color: #fff;
+    background-color: #005FAC;
+    padding: 20px 36px;
+    border-radius: 8px;
+}
+
+/* extra section */
+.what-i-learn{
+    background-color: #005FAC;
+    padding: 100px 0;
+}
+.leanring{
+    width: 1141px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leanring .learn{
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 60px;
+    border-radius: 8px;
+    box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+}
+.topic{
+    width: 40px;
+    height: 35px;
+}
+.learn-title{
+    color: #fff;
+    padding-bottom: 45px;
+}
+
+.title-learn{
+    color: #005FAC;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 16px;
+}
